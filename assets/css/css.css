@@ -1,0 +1,9 @@
+.pad-75 {
+	padding:0px 75px;
+}
+.pad-10-75 {
+    padding: 10px 75px !important;
+}
+.pad-10-75 p {
+    color:black;
+}

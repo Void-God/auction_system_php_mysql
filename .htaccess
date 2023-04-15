@@ -1,0 +1,20 @@
+ErrorDocument 404 /project/error.html
+
+RewriteEngine on
+
+RewriteRule ^index index.php [NC,L]
+RewriteRule ^sign-up sign-up.php [NC,L]
+RewriteRule ^sign-in sign-in.php [NC,L]
+RewriteRule ^dashboard dashboard.php [NC,L]
+RewriteRule ^profile profile.php [NC,L]
+RewriteRule ^log-out log-out.php [NC,L]
+RewriteRule ^contact contact.php [NC,L]
+RewriteRule ^bid-item bid-item.php [NC,L]
+RewriteRule ^product-details product-details.php [NC,L]
+RewriteRule ^product product.php [NC,L]
+RewriteRule ^winning-bids winning-bids.php [NC,L]
+RewriteRule ^notifications notifications.php [NC,L]
+RewriteRule ^reported reported.php [NC,L]
+RewriteRule ^blocked blocked.php [NC,L]
+
+
